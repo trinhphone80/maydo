@@ -1,0 +1,8 @@
+{
+  "name": "V3 - 25.12.2025 - AICARE W33 - Nhận Máy 0 Đồng - Tích hợp thanh toán",
+  "description": "Chương trình tặng máy đo đường huyết AICARE W33 miễn phí từ Đức Phương Medical. Chỉ thanh toán phí vận chuyển 70k.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

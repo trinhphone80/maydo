@@ -1,11 +1,37 @@
-<div align="center">
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+# AICARE W33 - Landing Page 0Đ
 
-  <h1>Built with AI Studio</h2>
+Trang web landing page giới thiệu chương trình tặng máy đo đường huyết AICARE W33 của Đức Phương Medical.
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## 🚀 Tính năng
+- Đặt hàng trực tiếp gửi về Google Sheets.
+- Trợ lý tư vấn sức khỏe tích hợp Gemini AI.
+- Giao diện tối ưu cho thiết bị di động (Mobile First).
+- Hệ thống quản trị (Admin) tích hợp sẵn.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## 🛠️ Cài đặt cục bộ (Local)
 
-</div>
+1. Cài đặt các thư viện:
+```bash
+npm install
+```
+
+2. Chạy môi trường phát triển:
+```bash
+npm run dev
+```
+
+3. Đóng gói để đưa lên Host:
+```bash
+npm run build
+```
+
+## 🌐 Triển khai lên Netlify (Khuyên dùng)
+1. Đẩy code lên GitHub.
+2. Kết nối GitHub với Netlify.
+3. Trong cấu hình Netlify, thêm **Environment Variable** tên là `API_KEY` với mã API Gemini của bạn.
+4. Build command: `npm run build`
+5. Publish directory: `dist`
+
+## 📊 Kết nối Google Sheets
+Truy cập Admin (Mật khẩu: `123456`) ở cuối trang để dán link Google Apps Script.
