@@ -2,7 +2,7 @@
 import { GoogleGenAI } from "@google/genai";
 
 export const getHealthAdvice = async (userPrompt: string) => {
-  const apiKey = process.env.API_KEY;
+  const apiKey = process.env.GEMINI_API_KEY;
 
   if (!apiKey || apiKey === "undefined") {
     return "Dạ, Đức Phương xin chào bác ạ. Hiện tại trợ lý AI đang bận một chút, bác vui lòng để lại số điện thoại trong form đăng ký hoặc gọi hotline 0937.043.808 để em hỗ trợ bác ngay nhé!";
